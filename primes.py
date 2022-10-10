@@ -6,10 +6,13 @@ def primes(number_of_primes):
     newList = []
     a = 0
     for i in range(100000000000000000000000000000000):
-        for j in range(100000000000000000000000000000000): 
-            if i%j == 0:
-                a+=1
-                continue
+        for j in range(100000000000000000000000000000000):
+            if j == 0:
+                pass
+            else:
+                if i%j == 0:
+                    a+=1
+                    continue
     if factorCount == 2:
         newList.append(i)
     newList.sort()

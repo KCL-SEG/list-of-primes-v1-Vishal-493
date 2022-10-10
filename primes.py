@@ -8,7 +8,7 @@ def primes(number_of_primes):
     for i in range(100000000000000000000000000000000):
         for j in range(100000000000000000000000000000000): 
             if i%j == 0:
-                a++
+                a+=1
                 continue
     if factorCount == 2:
         newList.append(i)

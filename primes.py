@@ -16,7 +16,9 @@ def primes(number_of_primes):
         if a == 2:
             newList.append(i)
     newList.sort()
+    x = 0
     while x < number_of_primes:
         list.append(newList[x])
+        x += 1
             
     return list

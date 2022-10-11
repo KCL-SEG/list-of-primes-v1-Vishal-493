@@ -6,7 +6,8 @@ def primes(number_of_primes):
     newList = []
     a = 0
     for i in range(number_of_primes*5):
-        for j in range(1, i+2):
+        z = i + 2
+        for j in range(0, z):
             if i == 0 or j == 0:
                 pass
             else:

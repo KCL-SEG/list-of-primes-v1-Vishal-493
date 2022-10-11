@@ -5,16 +5,16 @@ def primes(number_of_primes):
     list = []
     newList = []
     a = 0
-    for i in range(1000000):
-        for j in range(1000000):
-            if j == 0:
+    for i in range(number_of_primes*5):
+        for j in range(1, i+2):
+            if i == 0 or j == 0:
                 pass
             else:
                 if i%j == 0:
                     a+=1
                     continue
-    if factorCount == 2:
-        newList.append(i)
+        if a == 2:
+            newList.append(i)
     newList.sort()
     while x < number_of_primes:
         list.append(newList[x])

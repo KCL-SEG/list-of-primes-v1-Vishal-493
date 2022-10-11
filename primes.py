@@ -5,8 +5,8 @@ def primes(number_of_primes):
     list = []
     newList = []
     a = 0
-    for i in range(1000000000):
-        for j in range(1000000000):
+    for i in range(1000000):
+        for j in range(1000000):
             if j == 0:
                 pass
             else:

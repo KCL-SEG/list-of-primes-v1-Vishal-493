@@ -7,7 +7,7 @@ def primes(number_of_primes):
     a = 0
     for i in range(number_of_primes*5):
         z = i + 2
-        for j in range(0, z):
+        for j in range(1, z):
             if i == 0 or j == 0:
                 pass
             else:

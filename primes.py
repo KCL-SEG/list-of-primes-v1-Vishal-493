@@ -33,8 +33,8 @@ def primes(number_of_primes):
                 else:
                     if i%j == 0:
                         list.append(i)
-        if len.list == number_of primes:
-                          break
+        if len.list == int(number_of primes):
+            break
         else:
             continue
        return list

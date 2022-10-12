@@ -16,12 +16,12 @@ def primes(number_of_primes):
             if i not in list:
                 newlist.append(i)
             
-            if len(list) == int(number_of_primes):
+            if len(newlist) == int(number_of_primes):
                 break
             else:
                 continue
         break
-    return list
+    return newlist
        
  
                 

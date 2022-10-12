@@ -27,11 +27,16 @@ def primes(number_of_primes):
     list = []
     while 1:
         for i in range(2, 100):
-            for j in range(2, i-2):
-                if i%j == 0:
-        list.append(primenumber)
+            for j in range(2, i):
+                if j == i:
+                    pass
+                else:
+                    if i%j == 0:
+            list.append(i)
         if len.list == number_of primes:
-                       break
+                          break
         else:
-                continue
-    return list
+            continue
+       return list
+ 
+                
